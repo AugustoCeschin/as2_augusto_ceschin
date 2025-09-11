@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Atividade Somativa 2 - Tecnologias para Desenvolvimento Web
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto foi desenvolvido como parte da disciplina **Tecnologias para Desenvolvimento Web**.  
+O objetivo foi criar uma aplicação **React** com autenticação no **Firebase** e deploy na nuvem (**Netlify**).
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Funcionalidades
 
-### `npm start`
+- **Página de Cadastro**  
+  - Campos: e-mail, senha, nome, sobrenome e data de nascimento.  
+  - Criação do usuário no **Firebase Authentication** (E-mail/Senha).  
+  - Gravação dos dados adicionais no **Firestore**, incluindo o UID.  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Página de Login**  
+  - Campos: e-mail e senha.  
+  - Validação no Firebase Authentication.  
+  - Redirecionamento para a página Principal ou exibição de mensagem de erro.  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Página Principal**  
+  - Exibe os dados do usuário autenticado: nome, sobrenome e data de nascimento.  
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🌐 Deploy
 
-### `npm run build`
+A aplicação está publicada no Netlify e pode ser acessada neste link:  
+👉 [Acesse a aplicação online](https://as2augustoceschin.netlify.app)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Página de cadastro:  
+👉 [https://as2augustoceschin.netlify.app/Cadastrar](https://as2augustoceschin.netlify.app/Cadastrar)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🔧 Tecnologias utilizadas
 
-### `npm run eject`
+React
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+React Router Dom
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Firebase Authentication
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Firestore Database
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Netlify
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+📖 Autor
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Augusto Ceschin
+Repositório no GitHub
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Aplicação no Netlify
