@@ -43,12 +43,3 @@ Firebase Authentication
 Firestore Database
 
 Netlify
-
----
-
-📖 Autor
-
-Augusto Ceschin
-Repositório no GitHub
-
-Aplicação no Netlify
